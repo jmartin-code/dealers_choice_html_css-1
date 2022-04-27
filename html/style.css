@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+ a:hover{
+color: blue;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    
+   
+
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a{
+    transition: all 0.2 ease 0ms;
+}
+.nav-links li a:hover{
+    color: gray;
+}
+ 
+
+a{
+    justify-content: left;
+}
+
+img{
+    width: 160x;
+    height: 160px;
+    object-fit: contain;
+    position: relative;
+
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  padding: 1em;
+   }
+
+h2{
+color:  black;
+background-color: gray;
+
+}
+
+.Top-sellers{
+    flex: 0 0 30%;
+    
+}

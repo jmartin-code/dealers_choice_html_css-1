@@ -5,8 +5,9 @@
         Lorenzo SneakerEmporium
     </title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
   <header>
@@ -17,17 +18,39 @@
 <div class="navbar">
       <nav>
           <ul class="nav-links">
-        <li><a href="#shop by size">Shop by size</a></li>
-       <li> <a href="#shoes">Shoes</a></li>
-        <li><a href="#about">about </a></li>
-        <li> <a href="new arrival">New arrival</a></li>
+        <li><a href="#shop by size">Shop by size</a>
+        </li>
+        <li><a href="#about">about </a>
+        </li>
+        <li> <a href="new arrival">New arrival</a>
+        </li>
+        <li class="itemsmenu">
+    <a href="#">Clothes</a>
+        </li>
+        <li class="arrow"> <a href="#"><i class="fa-solid fa-chevron-down"></i></a></li>
     </ul>
         </nav>  
 </div>   
 </header>
 
 <section id="top-sellers">
-    <h2>Top-sellers</h2>
+   <h2>
+    <button onclick="toggle()">Topselling-shoes</button> 
+       <div id="subMenu">
+           <ul>
+            <li class="subitem"> <a href="#">Yeezy</a>
+            </li>
+            <li class="subitem"> <a href="#">Jordan</a>
+            </li>
+            <li class="subitem"> <a href="#">Nike</a>
+            </li>
+            <li cl  ass="subitem"> <a href="#">NewBalance</a>
+            </li>
+           </ul> 
+    </div>
+    <script src="app.js"></script>
+    </h2>
+    
     <div>
     <div class="Top-sellers">
         <img src="https://cdn.flightclub.com/1800/TEMPLATE/800389/2.jpg "alt="YEEZY BOOST 350 V2 'BRED">
@@ -76,4 +99,5 @@
 
 </section>
 </body>
+
 </html>

@@ -6,9 +6,10 @@
  header{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color:black;
     align-items: center;
     padding: 30px 10%;
+    flex-wrap: wrap;
     
 }
  a:hover{
@@ -23,7 +24,7 @@ a{
    
 
 }
-.nav-links li{
+nav li{
     display: inline-block;
     padding: 0px 20px;
 }
@@ -52,11 +53,13 @@ div{
     justify-content: center;
   padding: 1em;
    }
-
 h2{
 color:  black;
 background-color: gray;
 
+}
+h2 li{
+    list-style: none;
 }
 
 .Top-sellers{
